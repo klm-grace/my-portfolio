@@ -4,14 +4,45 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   line-height: 1.5;
-  font-weight: 400;
+  --black: #0C0C0C;
+  --pink-color: #FFC9F0;
+  --white-color: #fff;
+  --g2: 2rem;
+  --yellow-color: #FFE68C;
+  --blue-color: #9DDCFF;
+  --light-blue-color: #9DDCFF;
+  --light-pink-color: #FFC9F0;
+  --light-yellow-color: #FFE68C;
+  --dark-blue-color: #5AB5E8;
+  --dark-yellow-color: #EECD56;
+  --dark-pink-color: #F384D4;
+  --raduis: .8rem;
+
+
+  --text-color: var(--black);
+  --btn-color: var(--black);
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.handlee-regular {
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
