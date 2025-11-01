@@ -1,7 +1,6 @@
 #root {
   max-width: var(--max-view-width);
   margin: 0 auto;
-  background-color: var(--white-color);
   color: var(--black-color);
 }
 
