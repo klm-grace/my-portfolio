@@ -22,7 +22,6 @@ const Contact = () => {
             showToast('success', label);
         } catch (err) {
             showToast('error', 'Failed to copy');
-            console.error('Failed to copy:', err);
         }
     };
 

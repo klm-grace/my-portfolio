@@ -2,7 +2,6 @@ import Img from "../img"
 
 const Work: React.FC<{ work: Experience }> = ({ work }) => {
     const { company, description, icon, title } = work
-    console.log(Array.isArray(description),description);
     
     return <div className="work-ctn" >
         <div className="work-ctn-header">
