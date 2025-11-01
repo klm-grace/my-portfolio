@@ -12,9 +12,11 @@ export default defineConfig({
       },
     }),
     svgr()
-  ],resolve: {
+  ],
+  resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: "/",
 })
