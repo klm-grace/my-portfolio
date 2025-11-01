@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+  --gray-color: #515151;
+  --black-color: #0C0C0C;
+  --pink-color: #FFC9F0;
+  --green-color: #7CF072;
+  --dark-green-color: #4ED543;
+  --white-color: #fff;
+  --g2: 2rem;
+  --yellow-color: #FFE68C;
+  --blue-color: #9DDCFF;
+  --light-blue-color: #9DDCFF;
+  --light-pink-color: #FFC9F0;
+  --light-yellow-color: #FFE68C;
+  --dark-blue-color: #5AB5E8;
+  --dark-yellow-color: #EECD56;
+  --dark-pink-color: #F384D4;
+  --raduis: .8rem;
+  --app-border: .3rem;
+  --max-view-width: 1440px;
+
+
+  --text-color: var(--black-color);
+  --btn-color: var(--black-color);
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.handlee-regular {
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
