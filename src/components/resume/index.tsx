@@ -1,12 +1,13 @@
 import Me from "@/assets/me.svg?react"
 import Arrow from "../logoArrow"
+import Title from "../title"
 
 const Resume = () => {
     return <div id="me-info">
         <div className="me-logo">
             <Me width={112} height={106} />
             <Arrow />
-            <h2 className="me bg-blue">Hi, Its me KLM 😎</h2>
+            <Title content="Hi, It's me KLM" />
         </div>
         <div className="resume">
             <h1 className="pargraph">

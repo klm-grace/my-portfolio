@@ -1,12 +1,7 @@
-import type { ReactElement } from "react";
 
-type SectionProps = {
-    children: ReactElement;
-    className?: string
-};
 
-const Section = ({ children, className }: SectionProps) => {
-    return <section className={`section section-${className}`}>{children}</section>;
+const Section = ({ children, className, id }: SectionProps) => {
+    return <section id={id} className={`section section-${className}`}>{children}</section>;
 };
 
 export default Section;

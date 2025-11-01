@@ -4,8 +4,11 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   line-height: 1.5;
-  --black: #0C0C0C;
+  --gray-color: #515151;
+  --black-color: #0C0C0C;
   --pink-color: #FFC9F0;
+  --green-color: #7CF072;
+  --dark-green-color: #4ED543;
   --white-color: #fff;
   --g2: 2rem;
   --yellow-color: #FFE68C;
@@ -17,10 +20,12 @@
   --dark-yellow-color: #EECD56;
   --dark-pink-color: #F384D4;
   --raduis: .8rem;
+  --app-border: .3rem;
+  --max-view-width: 1440px;
 
 
-  --text-color: var(--black);
-  --btn-color: var(--black);
+  --text-color: var(--black-color);
+  --btn-color: var(--black-color);
 
   color-scheme: light dark;
 
