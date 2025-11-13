@@ -497,9 +497,9 @@
 /* Media querie  */
 
 
-@media (max-width: 1366px) {
+@media (max-width: 1460px) {
   .footer-line {
-    width: 100vw;
+    width: 100%;
   }
 }
 @media (max-width: 680px) {
