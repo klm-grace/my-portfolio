@@ -32,7 +32,7 @@ const Home = () => {
         </Section>
         <footer className="footer">
             <div className="logo-ctn footer-logo-ctn">
-                <K height={48} width={48} className="logo" />
+                <K height={51} width={31} className="logo" />
                 <h3 className="handlee-regular">LM</h3>
             </div>
             <div style={{ textAlign: 'center', marginTop: ".4rem", color: "var(--gray-color)" }}>Based on a free portfolio design by Zainab Nisa (Figma).</div>
